@@ -3,6 +3,10 @@ title: "Install Atom 1.38.1 di Ubuntu 18.04"
 output: github_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ## Prerequisite
 
 Sebelum Menginstall Atom versi 1.38.1 pastikan hal-hal berikut ini:
@@ -31,3 +35,5 @@ Setelah terdownload maka file akan berada di folder Download. Masuk ke folder Do
 File **atom-amd64.tar.gz** berahsil diekstrak dan sekarang pada folder opt terdapat folder **atom-1.38.1-amd64**. Ketik **ls -la** untuk mengecek kembali is folder opt. Selanjutnya folder **atom-1.38.1-amd64** akan dirubah kepemilikannya dengan mengetikan **sudo chown -R root:root atom-1.38.1-amd64/** menjadi milik user root dan merubah hak aksesnya dengan mengetikan **sudo chmod 755 atom-1.38.1-amd64/** agar tidak bisa sembarangan di rubah.
 
 ![ganti owner dan hak akses](Image/Ganti owner dan hak akses.png)
+
+Sampai dengan saat ini Atom versi 1.38.1 sudah berhasil diinstall.

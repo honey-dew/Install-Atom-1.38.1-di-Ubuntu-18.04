@@ -3,6 +3,10 @@ title: "Install Atom 1.38.1 di Ubuntu 18.04"
 output: github_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ## Prerequisite
 
 Sebelum Menginstall Atom versi 1.38.1 pastikan hal-hal berikut ini:
