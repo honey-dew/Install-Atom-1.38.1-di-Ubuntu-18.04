@@ -3,10 +3,6 @@ title: "Install Atom 1.38.1 di Ubuntu 18.04"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Prerequisite
 
 Sebelum Menginstall Atom versi 1.38.1 pastikan hal-hal berikut ini:
@@ -37,3 +33,24 @@ File **atom-amd64.tar.gz** berahsil diekstrak dan sekarang pada folder opt terda
 <img src="Image/Ganti owner dan hak akses.png">
 
 Sampai dengan saat ini Atom versi 1.38.1 sudah berhasil diinstall.
+
+## Membuat Launcher Atom versi 1.38.1
+
+Untuk mempermudah di dalam menggunakan Atom yang sudah terinstall tersebut, langkah selanjutnya yaitu membuat launcher dengan cara berikut ini:
+
+- Buka terminal dengan menekan **Ctrl+Alt+T**.
+- Ketikan **cd /usr/share/applications**.
+- Ketik **sudo nano atom.desktop** untuk membuat launcher.
+- Isi file **atom.desktop** tersebut seperti gambar di bawah ini.
+
+<img src="Image/Atom desktop.png">
+
+- Simpan file tersebut dengan menekan **Ctrl+X** lalu tekan **Y** kemudian tekan **Enter**.
+
+_note: untuk Icon pada file atom.desktop bisa dirubah sesuai gambar yang diinginkan, dan simpan gambar yang diinginkan pada folder atom-1.38.1-amd64_.
+
+Launcher sudah berhasil dibuat, dan untuk mengeceknya tekan tombol windows pada keyboard lalu ketikan atom. Jika berhasil maka hasilnya seperti gambar di bawah ini.
+
+<img src="Image/Atom launcher.png">
+
+Atom versi 1.38.1 sudah siap untuk digunakan.
